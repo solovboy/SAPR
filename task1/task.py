@@ -1,6 +1,7 @@
 import json
 import numpy
 
+
 def main(path):
     with open(path, "r") as file:
         data = json.load(file)
